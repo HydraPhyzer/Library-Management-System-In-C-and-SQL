@@ -44,8 +44,8 @@ namespace Library_Management_System
                 String Author = textBox1.Text;
 
                 SqlConnection Connection = new SqlConnection();
-                //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-                Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+                //Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
+                Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
                 SqlCommand Command = new SqlCommand();
                 Command.Connection = Connection;
 
@@ -70,8 +70,8 @@ namespace Library_Management_System
 
 
                     SqlConnection Connection1 = new SqlConnection();
-                    // Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-                    Connection1.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+                    // Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
+                    Connection1.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
                     SqlCommand Command1 = new SqlCommand();
                     Command1.Connection = Connection1;
 
