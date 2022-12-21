@@ -23,8 +23,8 @@ namespace Library_Management_System
             if (textBox1.Text != "")
             {
                 SqlConnection Connection = new SqlConnection();
-                //Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
-                Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+                //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+                Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
                 SqlCommand Command = new SqlCommand();
                 Command.Connection = Connection;
 
@@ -64,8 +64,8 @@ namespace Library_Management_System
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection Connection = new SqlConnection();
-            //Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
-            Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+            //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
 

@@ -27,7 +27,7 @@ namespace Library_Management_System
             panel3.Visible = false;
 
             SqlConnection Connection = new SqlConnection();
-            Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
 

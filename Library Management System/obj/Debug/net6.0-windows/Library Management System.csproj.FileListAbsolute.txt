@@ -201,3 +201,5 @@ C:\Users\Zubair Gujjar\Desktop\Library Management System\Library Management Syst
 C:\Users\Zubair Gujjar\Desktop\Library Management System\Library Management System\obj\Debug\net6.0-windows\ref\Library Management System.dll
 C:\Users\Zubair Gujjar\Desktop\Library Management System\Library Management System\obj\Debug\net6.0-windows\Library_Management_System.IssuanceChart.resources
 C:\Users\Zubair Gujjar\Desktop\Library Management System\Library Management System\obj\Debug\net6.0-windows\Library_Management_System.ThresholdChart.resources
+C:\Users\DELL\Desktop\LMS\Library Management System\obj\Debug\net6.0-windows\Library_Management_System.IssuanceChart.resources
+C:\Users\DELL\Desktop\LMS\Library Management System\obj\Debug\net6.0-windows\Library_Management_System.ThresholdChart.resources

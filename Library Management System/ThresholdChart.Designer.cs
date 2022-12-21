@@ -28,19 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.formsPlot1 = new ScottPlot.FormsPlot();
             this.SuspendLayout();
+            // 
+            // formsPlot1
+            // 
+            this.formsPlot1.Location = new System.Drawing.Point(6, 3);
+            this.formsPlot1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.formsPlot1.Name = "formsPlot1";
+            this.formsPlot1.Size = new System.Drawing.Size(438, 344);
+            this.formsPlot1.TabIndex = 1;
             // 
             // ThresholdChart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.formsPlot1);
             this.Name = "ThresholdChart";
-            this.Size = new System.Drawing.Size(443, 358);
+            this.Size = new System.Drawing.Size(446, 358);
+            this.Load += new System.EventHandler(this.ThresholdChart_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private ScottPlot.FormsPlot formsPlot1;
     }
 }
