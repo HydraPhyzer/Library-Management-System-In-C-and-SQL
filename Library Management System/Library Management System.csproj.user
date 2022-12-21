@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AddBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DeleteBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DeleteUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Fine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GrantBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IssueBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReIssue Book.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ReturnBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ViewBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ViewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
