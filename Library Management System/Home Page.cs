@@ -27,7 +27,7 @@ namespace Library_Management_System
             panel3.Visible = false;
 
             SqlConnection Connection = new SqlConnection();
-            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
 
@@ -171,6 +171,18 @@ namespace Library_Management_System
             panel3.Visible = false;
             Fine Fn = new Fine();
             AddUserControl(Fn);
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            IssuanceChart IC = new IssuanceChart();
+            AddUserControl(IC);
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ThresholdChart TC = new ThresholdChart();
+            AddUserControl(TC);
         }
     }
 

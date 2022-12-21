@@ -30,8 +30,8 @@ namespace Library_Management_System
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection Connection = new SqlConnection();
-            //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+            //Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
             Connection.Open();
@@ -66,8 +66,8 @@ namespace Library_Management_System
 
 
                     SqlConnection Connection4 = new SqlConnection();
-                    //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-                    Connection4.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+                    //Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+                    Connection4.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
                     SqlCommand Command4 = new SqlCommand();
                     Command4.Connection = Connection4;
 
@@ -96,8 +96,8 @@ namespace Library_Management_System
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection Connection = new SqlConnection();
-            //Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+            //Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= ZUBAIR-PC; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
 

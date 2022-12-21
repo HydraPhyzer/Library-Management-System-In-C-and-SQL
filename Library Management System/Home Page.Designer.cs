@@ -361,6 +361,7 @@
             this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button16
             // 
@@ -377,6 +378,7 @@
             this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // panel3
             // 
