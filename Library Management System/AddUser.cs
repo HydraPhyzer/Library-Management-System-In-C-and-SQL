@@ -27,8 +27,8 @@ namespace Library_Management_System
                 String Email = UEmail.Text;
 
                 SqlConnection Connection = new SqlConnection();
-                // Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
-                Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
+                // Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
+                Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
                 SqlCommand Command = new SqlCommand();
                 Command.Connection = Connection;
 
