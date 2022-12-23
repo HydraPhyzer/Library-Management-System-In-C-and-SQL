@@ -714,19 +714,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ST\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ST\\Desktop\\new\\Library Management System\\Library Management System.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Final Version C# Project\\Library Management System\\Library Management System.csproj",
       "projectName": "Library Management System",
-      "projectPath": "C:\\Users\\ST\\Desktop\\new\\Library Management System\\Library Management System.csproj",
-      "packagesPath": "C:\\Users\\ST\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ST\\Desktop\\new\\Library Management System\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\Final Version C# Project\\Library Management System\\Library Management System.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\Final Version C# Project\\Library Management System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ST\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

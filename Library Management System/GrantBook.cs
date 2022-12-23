@@ -33,7 +33,7 @@ namespace Library_Management_System
             if (textBox1.Text != "")
             {
                 SqlConnection Connection = new SqlConnection();
-                Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
+                Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
                 SqlCommand Command = new SqlCommand();
                 Command.Connection = Connection;
 
@@ -80,20 +80,20 @@ namespace Library_Management_System
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection Connection = new SqlConnection();
-            Connection.ConnectionString = "data source= DESKTOP-5MC8R35\\SQLEXPRESS; database=Library Management System;integrated security=True";
+            Connection.ConnectionString = "data source= DESKTOP-ERBJH3F; database=Library Management System;integrated security=True";
             SqlCommand Command = new SqlCommand();
             Command.Connection = Connection;
 
 
 
-            Command.CommandText = "Select * From IssueBook Where ISBN='" + textBox6.Text + "' and  UserID='" + textBox3.Text + "'";
+            Command.CommandText = "Select * From IssueBook Where ISBN='" + textBox6.Text + "' and  UserID='" + UserID + "' and IsReturned='" + 0 + "'";
             SqlDataAdapter Adapter = new SqlDataAdapter(Command);
             DataSet Data = new DataSet();
             Adapter.Fill(Data);
 
 
             int res;
-            if (Data.Tables[0].Rows.Count <= 1)
+            if (Data.Tables[0].Rows.Count < 1)
             {
                 Connection.Open();
 
